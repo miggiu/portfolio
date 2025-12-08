@@ -1,32 +1,38 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "html-css-icon.svg",
         "title": "HTML - CSS",
+        "alt": "Icône HTML et CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
-        "image": "js.jpg",
+        "image": "js-icon.svg",
         "title": "javascript",
+        "alt": "Icône JavaScript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
-        "image": "react.jpg",
+        "image": "react-icon.svg",
         "title": "React",
+        "alt": "Icône React",
         "text": "Création d’applications React, création de composants et manipulation de leur état"
     },
     {
-        "image": "gestion-de-projet.png",
+        "image": "gestion-de-projet-icon.svg",
         "title": "Gestion de projet",
+        "alt": "Icône Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "optimisation-et-debug.png",
+        "image": "optimisation-debug-icon.svg",
         "title": "Optimisation et debug",
+        "alt": "Icône Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
     },
     {
-        "image": "test.png",
+        "image": "test-icon.svg",
         "title": "Test",
+        "alt": "Icône Test",
         "text": "Tests exploratoires, unitaires et d'intégration, définition d'une stratégie de test et d'une rédaction d'un cahier de recette, automatisation de tests E2E et d'API"
     }
 ]

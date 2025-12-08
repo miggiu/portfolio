@@ -3,18 +3,21 @@
         "image": "image1.png",
         "title": "Booki",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "alt": "Image du projet Booki",
         "link": "#"
     },
     {
         "image": "image2.png",
         "title": "Mon Vieux grimoire",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "alt": "Image du projet Mon Vieux grimoire",
         "link": "#"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "alt": "Image du projet Kasa",
         "link": "#"
     }
 ]

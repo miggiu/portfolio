@@ -28,8 +28,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* display background dark color on navbar scroll */
+.navbarScroll {
+    background-color: #ffffff;
+}
+
+.navbarScroll .navbar-brand,
+.navbarScroll .nav-link {
+    color: #000000 !important;
+}
+
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #1a1a1a;
+}
+
+.navbarScroll.navbarDark .navbar-brand,
+.navbarScroll.navbarDark .nav-link {
+    color: #ffffff !important;
 }
 
 /* hero background image */
@@ -143,3 +157,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* footer */
+.timeline {
+    margin-left: 35px;
+    position: relative;
+    padding-left: 30px;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #BC8F8F;
+}
+.timelineItem {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 30px;
+}
+.timelineMarker {
+    position: absolute;
+    left: -17px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background: #BC8F8F;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.timelineContent h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+.timelineContent p {
+    color: #666;
+    line-height: 1.6;
+}

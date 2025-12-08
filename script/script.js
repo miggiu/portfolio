@@ -1,9 +1,10 @@
 // Function to add the "navbarDark" class to the navbar on scroll
 function handleNavbarScroll() {
     const header = document.querySelector(".navbar");
+    const heroHeight = document.querySelector(".bgimage_container").offsetHeight;
     window.onscroll = function () {
         const top = window.scrollY;
-        if (top >= 100) {
+        if (top >= heroHeight) {
             header.classList.add("navbarDark");
         } else {
             header.classList.remove("navbarDark");

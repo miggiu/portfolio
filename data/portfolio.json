@@ -1,23 +1,23 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "alt": "Image du projet Booki",
-        "link": "#"
+        "image": "sophie_bluel_project.webp",
+        "title": "Portfolio pour Sophie Bluel",
+        "text": "Portfolio numérique développé pour Sophie Bluel afin de présenter ses réalisations d'architecte. Il utilise les technologies HTML, CSS et JavaScript pour le front-end, avec une gestion dynamique des oeuvres et une interface responsive. L'accent est mis sur l'expérience utilisateur.",
+        "alt": "Image du projet Portfolio pour Sophie Bluel",
+        "link": "https://github.com/miggiu/ArchiWebos_Sophie_Bluel.git"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "alt": "Image du projet Mon Vieux grimoire",
-        "link": "#"
+        "image": "eco_bliss_bath_project.webp",
+        "title": "Eco Bliss Bath",
+        "text": "Eco Bliss Bath est un site e-commerce axé sur le bien-être et la vente de savon artisanaux. J'ai assuré la qualité du projet grâce à la mise en place ete la rédaction de tests automatisés avec Cypress, garantissant la fiabilité des fonctionnalités clés par des scénarios end-to-end robustes.",
+        "alt": "Image du projet Eco Bliss Bath",
+        "link": "https://github.com/miggiu/eco-bliss-bath.git"
     },
     {
-        "image": "image3.png",
+        "image": "kasa_project.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Kasa est une application web de location immobilière réalisée avec React, permettant aux utilisateurs de rechercher et visualiser des logements à louer. Vous aurez accès grâce au bouton ci-dessous au repository du projet, contenant notamment les tests unitaires réalisés avec Jest et React Testing Library.",
         "alt": "Image du projet Kasa",
-        "link": "#"
+        "link": "https://github.com/miggiu/kasa_frontend.git"
     }
 ]

@@ -87,6 +87,31 @@
 #portfolio p {
     text-align: center;
 }
+.portfolioContent {
+    position: relative;
+}
+.portfolioContent img {
+    cursor: pointer;
+}
+.portfolioContent img:hover {
+    animation: enlargeThenShrink 4s ease-in-out forwards;
+    position: relative;
+    z-index: 50;
+}
+@keyframes enlargeThenShrink {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(2);
+    }
+    75% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 /* contact */
 .contactColumn {

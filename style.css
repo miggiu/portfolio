@@ -1,7 +1,4 @@
 /******* GENERAL *******/
-:root {
-    --bs-success: #BC8F8F;
-}
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -65,9 +62,19 @@ h1, h2, h3, h4, h5, h6 {
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    display: inline-block;
 }
 .hero_desc {
     font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    padding: 0.75rem 1.25rem;
+    border-radius: 2rem;
+    display: inline-block;
 }
 .hero-text {
     text-align: center;
@@ -76,6 +83,10 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
 }
 
 /* about */
@@ -139,11 +150,20 @@ h1, h2, h3, h4, h5, h6 {
 .btn-success {
     background-color: #BC8F8F;
     border-color: #BC8F8F;
+    color:#1a1a1a;
 }
 .btn-success:hover {
     background-color: #181412;
     border-color: #181412;
     color:aliceblue
+}
+.btn-success:active,
+.btn-success:focus,
+.btn-success.active {
+    background-color: #BC8F8F;
+    border-color: #BC8F8F;
+    color: #1a1a1a;
+    box-shadow: none;
 }
 
 /* contact */

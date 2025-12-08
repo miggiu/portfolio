@@ -1,4 +1,14 @@
 /******* GENERAL *******/
+:root {
+    --bs-success: #BC8F8F;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sono', sans-serif;
+}
+
 /* spacing on all sections */
 #about,
 #skills,
@@ -80,7 +90,7 @@
     text-align: center;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #BC8F8F;
 }
 
 /* portfolio */
@@ -112,6 +122,15 @@
         transform: scale(1);
     }
 }
+.btn-success {
+    background-color: #BC8F8F;
+    border-color: #BC8F8F;
+}
+.btn-success:hover {
+    background-color: #181412;
+    border-color: #181412;
+    color:aliceblue
+}
 
 /* contact */
 .contactColumn {
@@ -120,7 +139,7 @@
     align-items: center;
 }
 .contactColumn i {
-    color: #198754;
+    color:#BC8F8F;
 }
 
 /* footer */

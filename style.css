@@ -166,31 +166,6 @@ h1, h2, h3, h4, h5, h6 {
 #portfolio p {
     text-align: center;
 }
-.portfolioContent {
-    position: relative;
-}
-.portfolioContent img {
-    cursor: pointer;
-}
-.portfolioContent img:hover {
-    animation: enlargeThenShrink 4s ease-in-out forwards;
-    position: relative;
-    z-index: 50;
-}
-@keyframes enlargeThenShrink {
-    0% {
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(2);
-    }
-    75% {
-        transform: scale(2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 .btn-success {
     background-color: #BC8F8F;
     border-color: #BC8F8F;

@@ -19,7 +19,10 @@ function handleNavbarCollapse() {
 
     navLinks.forEach((link) => {
         link.addEventListener("click", () => {
-            new bootstrap.Collapse(menuToggle).toggle();
+            // Only toggle collapse if menu is expanded (mobile view)
+            if (menuToggle.classList.contains("show")) {
+                new bootstrap.Collapse(menuToggle).toggle();
+            }
         });
     });
 }

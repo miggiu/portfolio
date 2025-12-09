@@ -16,7 +16,7 @@
     {
         "image": "kasa_project.webp",
         "title": "Kasa",
-        "text": "Kasa est une application web de location immobilière réalisée avec React, permettant aux utilisateurs de rechercher et visualiser des logements à louer. Vous aurez accès grâce au bouton ci-dessous au repository du projet, contenant notamment les tests unitaires réalisés avec Jest et React Testing Library.",
+        "text": "Kasa est une application web de location immobilière réalisée avec React, permettant aux utilisateurs de rechercher et visualiser des logements à louer. La conformité des composants a été assurée par des tests unitaires réalisés avec Jest et React Testing Library.",
         "alt": "Image du projet Kasa",
         "link": "https://github.com/miggiu/kasa_frontend.git"
     }

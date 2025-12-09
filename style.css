@@ -166,6 +166,16 @@ h1, h2, h3, h4, h5, h6 {
 #portfolio p {
     text-align: center;
 }
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+#portfolio .col-md-4 {
+    display: flex;
+}
+#portfolio .card {
+    width: 100%;
+}
 .btn-success {
     background-color: #BC8F8F;
     border-color: #BC8F8F;
